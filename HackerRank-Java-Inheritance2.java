@@ -7,17 +7,14 @@ import java.util.regex.*;
 //Write your code here
 class Arithmetic {
     
-    static int add(int b,int c){
-        int result = b+c;
-        
-        return result;
+    int add(int b,int c){
+        return b+c;
     }
     
 }
 
 class Adder extends Arithmetic {
-    
-    
+  
 }
 
 public class Solution{
